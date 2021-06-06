@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FE1 Index</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Pagina Web Frontend</h1>
-    <p>Pagina web con los conocimientos parendidos</p>
+    <h1 id="top">Pagina Web Frontend</h1>
+    <p>Pagina web con los conocimientos aprendidos</p>
+    <img src="img/Starbucks-Logo.png" alt="Starbucks Logo" width="360" height="200">
+    <br>
+    <a href="#servicios-add">Servicios Adicionales</a>
     <div></div>
     <h2>Ordered List (ol)</h2>
     <h4>Lista ordenada, lleva un paso a paso</h4> 
@@ -16,11 +20,15 @@
         <li>type="1" Para lista por numeros, "A" alfabético y "I" # Romanos</li>
         <li>start="20" La lista va a iniciar desde este número</li>
     </ul>
-    <ol start="1" type="I">
-        <li>git status para revisar los cambios pendientes</li>
-        <li>git add para añadir los archivos que han cambiado</li>
-        <li>git commit -m para preparar la subida con msj</li>
-        <li>git push origin master para subir sobre el branch original</li>
+    <ol start="1" type="1">
+        <li><strong><em>git status</em></strong> para revisar los cambios pendientes</li>
+        <li><strong><em>git add</em></strong> para añadir los archivos que han cambiado</li>
+        <li><strong><em>git commit -m</em></strong> para preparar la subida con msj</li>
+        <li><strong><em>git push origin master</em></strong> para subir sobre el branch original</li>
+    </ol>
+    <ol>
+        <li><a href="https://www.w3schools.com/GIT/default.asp" target="_blank">Git tutorial</a></li>
+        <li><a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">A Tag Info</a></li>
     </ol>
     <div></div>
     <h2>Unordered List (ul)</h2>
@@ -44,6 +52,12 @@
         </li>
         <li>Segundo item de la ul</li>
         <li>Tercer item de la ul</li>
+    </ul>
+    <h2 id="servicios-add">Servicios Adicionales (Hipervinculos)</h2>
+    <ul>
+        <li><a href="#top">Inicio</a></li>
+        <li><a href="mailto:josorioph@gmail.com">Contact (Mail)</a></li>
+        <li><a href="tel:+573058159792">Contact (Phone)</a></li>
     </ul>
 </body>
 </html>

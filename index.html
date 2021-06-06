@@ -10,23 +10,40 @@
     <h1>Pagina Web Frontend</h1>
     <p>Pagina web con los conocimientos parendidos</p>
     <div></div>
-    <p></p>
-    <h2>Unordered List (ul)</h2>
-    <p>Lista sin orden, va con bullet points</p>
-    <ul>
-        <li>Guitarra</li>
-        <li>Bajo</li>
-        <li>Bateria</li>
-        <li>Voz</li>
-    </ul>
-    <div></div>
     <h2>Ordered List (ol)</h2>
-    <p>Lista ordenada, lleva un paso a paso</p>
-    <ol>
+    <h4>Lista ordenada, lleva un paso a paso</h4> 
+    <ul>
+        <li>type="1" Para lista por numeros, "A" alfabético y "I" # Romanos</li>
+        <li>start="20" La lista va a iniciar desde este número</li>
+    </ul>
+    <ol start="1" type="I">
         <li>git status para revisar los cambios pendientes</li>
         <li>git add para añadir los archivos que han cambiado</li>
         <li>git commit -m para preparar la subida con msj</li>
         <li>git push origin master para subir sobre el branch original</li>
     </ol>
+    <div></div>
+    <h2>Unordered List (ul)</h2>
+    <h4>Lista sin orden, va con bullet points</h4>
+    <ul type="square">
+        <li>type="disc" para el circulo lleno</li>
+        <li>type="cicle" para el circulo vacío</li>
+        <li>type="square" para cuadrados rellenos</li>
+        <li>type="none" para quitar el ícono</li>
+    </ul>
+    <div></div>
+    <h2>Listas Anidadas</h2>
+    <h4>Se usan para crear diferentes niveles de jerarquía</h4>
+    <ul>
+        <li>Primer item de la ul:
+            <ol>
+                <li>Primero de la ordenada</li>
+                <li>Segundo de la ordenada</li>
+                <li>Tercero de la ordenada</li>
+            </ol>
+        </li>
+        <li>Segundo item de la ul</li>
+        <li>Tercer item de la ul</li>
+    </ul>
 </body>
 </html>

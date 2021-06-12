@@ -1,0 +1,25 @@
+.tituloP {
+    font-size: 50px;
+    color: rgb(6, 116, 48);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: inherit;
+    line-height: 30px;
+}
+
+.encabezado{
+    text-align: center;
+}
+
+#enlaceTop{
+    font-size: 12px;
+    color: rgb(6, 116, 48);
+    line-height: 30px;
+}
+
+p.encabezado{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+}

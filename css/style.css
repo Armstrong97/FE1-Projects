@@ -1,6 +1,6 @@
-.tituloP {
+.titulo {
     color: rgb(6, 116, 48);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;/*Importante el Sans-Serif al final, permite que el sitio sea leído en culquier tipografía sans.serif en caso de no estar disponibles las 2 definidas anteriormente*/
     font-size: 50px;
     font-weight: bolder;
     line-height: 58px;

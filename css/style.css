@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .titulo {
     color: rgb(6, 116, 48);
     font-family: 'Roboto', sans-serif;/*Importante el Sans-Serif al final, permite que el sitio sea leído en culquier tipografía sans.serif en caso de no estar disponibles las 2 definidas anteriormente*/
@@ -18,7 +22,6 @@
 }
 
 #enlaceTop{
-    color: rgb(6, 116, 48);
     font-size: 12px;
     line-height: 30px; /*Se recomienda que sea 8px mayor que el font-size*/
 }
@@ -28,3 +31,16 @@ p.encabezado{
     font-size: 16px;
     line-height: 24px;
 }
+
+h4 em {
+    color: red;
+}
+
+header>a:hover{
+    color: white;
+    background-color: rgba(6, 116, 48);
+}
+/* Visited para darle estilo a enlaces ya visitados por el usuario
+header>a:visited{
+    color: crimson;
+} */

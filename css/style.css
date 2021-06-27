@@ -36,11 +36,43 @@ h4 em {
     color: red;
 }
 
-header>a:hover{
-    color: white;
-    background-color: rgba(6, 116, 48);
+/*  Papi, infromación importante, el manejo de los links se debe dar siempre LVHA, de la siguiente manera:
+- :link | Representa un elemento que aún no se ha visitado
+- :visited | Representa un enlace ya visitado
+- :hover | Lo que pasa mientras el usuario tiene el mouse encima del link
+- :active | Lo que pasa cuando el usario le da clic al enlace, entiendace como clic la duración entre que se presiona el boton izquierdo del mouse y se suelta  */
+
+/* p:empty{
+    background-color: teal;
+} De esta menra se cambia un atributo de una etiqueta vacía */
+
+header>a:link{
+    color: #166916;
 }
-/* Visited para darle estilo a enlaces ya visitados por el usuario
+
 header>a:visited{
-    color: crimson;
-} */
+    color: #b025ab;
+}
+
+header>a:hover{
+    background-color: rgb(6, 116, 48);
+    color: white;
+}
+
+header>a:active{
+    background-color: turquoise;
+    color: violet;
+}
+
+/*Fist-child last-child :first-of-type*/
+
+/* ol:first-child{
+    font-weight: bold;
+    color: teal;
+} Activar para ver */
+
+li:first-child{
+    font-weight: bold;
+    color: teal;
+}
+

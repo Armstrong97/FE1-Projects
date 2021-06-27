@@ -1,0 +1,13 @@
+ul li {
+    color: blue;
+  }
+  
+ul li:last-child {
+color: red;
+font-weight: bold;
+}
+
+ul li:first-child {
+    color: orange;
+    font-weight: lighter;
+    }
